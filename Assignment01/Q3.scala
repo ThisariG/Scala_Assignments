@@ -6,9 +6,9 @@ object Q3 extends App{
 
   def calculateShippingCost(noOfCopies:Int):Double =
     if (noOfCopies > 50)
-      (3 + (noOfCopies - 50) * 0.75)
+      (3 * 50 + (noOfCopies - 50) * 0.75)
     else
-      3
+      3 * noOfCopies
 
   def calculateWholesaleCost(noOfCopies:Int):Double = calculateTotalDiscountedPrice(noOfCopies) + calculateShippingCost(noOfCopies)
 
