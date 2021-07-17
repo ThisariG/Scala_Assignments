@@ -6,7 +6,7 @@ object Q5 extends App{
   }
 
   def evenSum(n:Int):Int = n match {
-    case 0=> 0
+    case 0 => 0
     case n if(isEven(n)) => n + evenSum(n - 1)
     case n if(!isEven(n)) => evenSum(n - 1)
   }
