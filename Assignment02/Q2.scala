@@ -13,7 +13,7 @@ object Q2 extends App{
 
   def primeSeq(n: Int):Unit= {
     if(n > 2) primeSeq(n - 1)
-    if(prime(n)) print(s"${n}, ")
+    print(s"${n}, ")
   }
 
   primeSeq(10);
