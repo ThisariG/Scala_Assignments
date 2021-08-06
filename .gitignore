@@ -1,2 +1,8 @@
+<<<<<<< HEAD
 *.class
 *.log
+=======
+*.class
+*.log
+.idea
+>>>>>>> 44abcb9ace65ff079f57560e534539b0cea9094b
