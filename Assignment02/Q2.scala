@@ -11,9 +11,10 @@ object Q2 extends App{
     case n => prime(p, n + 1)
   }
 
+
   def primeSeq(n: Int):Unit= {
-    if(n > 2) primeSeq(n - 1)
-    if(prime(n)) print(s"${n}, ")
+    if (n > 2) primeSeq(n - 1)
+    if (prime(n,2)) printf("%d ", n)
   }
 
   primeSeq(10);
